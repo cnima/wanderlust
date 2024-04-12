@@ -35,6 +35,18 @@ _I'd love for you to make the most of this project - it's all about learning, he
 3. **Install Required Dependencies**
 
    ```bash
+   #installs NVM 
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+   # download node.js
+   nvm install 20
+
+   # virify node version
+   node -version 
+
+   #verify npm version 
+   npm -v
+
    npm i
    ```
 
